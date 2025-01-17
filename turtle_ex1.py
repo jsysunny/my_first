@@ -1,5 +1,20 @@
-import turtle
+"""import turtle
+
+p= turtle.Pen()
+
+p.shape("turtle")
 
 for i in range(1,100):
-    turtle.forward(i)
-    turtle.left(90)
+    p.forward(i)
+    p.left(90)
+
+"""
+
+from turtle import *
+
+shape("turtle")
+
+for i in range(1,100):
+    forward(i)
+    left(90)
+    
